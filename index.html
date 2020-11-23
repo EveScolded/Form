@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="main-header">Application form</h1>
+      <p class="main-header__description">
+        If you are exhausted from the pandemic sytuacion, restrictions, home
+        office. If you feel like you don't wanna live on this planet enymore...
+        there is a place for you! Complete our form and apply to the space
+        mission program. Details of recruitment you will find in the link below.
+      </p>
+      <p class="main-header__links">
+        <a class="all__links" href="subpages.html" >Recriutment details</a>
+      </p>
+    </header>
+
+    <main>
+      <!-- sposób I na dodawanie label -->
+      <form  method="POST" class="form">
+        <p>
+          <label for="FirstName">First name:</label>
+          <input
+            class="form__input"
+            placeholder="Please enter your first name"
+            id="FirstName"
+            name="FirstName"
+          />
+        </p>
+
+        <!-- sposób II na dodawanie label -->
+        <p>
+          <label
+            >Last name:
+            <input
+              class="form__input"
+              placeholder="Please enter your last name"
+              id="LastName"
+              name="LastName"
+            />
+          </label>
+        </p>
+
+        <p>
+          <label
+            >Phone number:
+            <input
+              class="form__input"
+              placeholder="Please enter your phone number"
+              id="PhoneNumber"
+              name="PhoneNumber"
+              type="tel"
+            />
+          </label>
+        </p>
+
+        <p>
+          <label
+            >E-mail address:
+            <input
+              class="form__input"
+              placeholder="Please enter your e-mail address"
+              id="E-mail"
+              name="E-mail"
+              type="email"
+            />
+          </label>
+        </p>
+
+        <fieldset>
+          <legend>Addres</legend>
+
+          <p>
+            <label
+              >Street name:
+              <input
+                class="form__input"
+                placeholder="Please enter street name"
+                id="StreetName"
+                name="StreetName"
+              />
+            </label>
+          </p>
+
+          <p>
+            <label
+              >Building number:
+              <input
+                class="form__input"
+                placeholder="Please enter building number"
+                id="BuildingNumner"
+                name="BuildingNumber"
+              />
+            </label>
+          </p>
+
+          <p>
+            <label
+              >Home number:
+              <input
+                class="form__input"
+                placeholder="Please enter home number"
+                id="HomeNumber"
+                name="HomeNumber"
+              />
+            </label>
+          </p>
+
+          <p>
+            <label
+              >City name:
+              <input
+                class="form__input"
+                placeholder="Please enter city name"
+                id="CityName"
+                name="CityName"
+              />
+            </label>
+          </p>
+
+          <p>
+            <label
+              >Postal code:
+              <input
+                class="form__input"
+                placeholder="Please enter postal code"
+                id="PostalCode"
+                name="PostalCode"
+              />
+            </label>
+          </p>
+
+          <p>
+            <label
+              >Country name:
+              <input
+                class="form__input"
+                placeholder="Please enter country name"
+                id="CountryName"
+                name="CountryName"
+              />
+            </label>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Destination</legend>
+
+          <p>
+            <label>
+              <input type="radio" value="Moon" name="destination" /> Moon
+            </label>
+          </p>
+
+          <p>
+            <label>
+              <input type="radio" value="Mars" name="destination" /> Mars
+            </label>
+          </p>
+
+        </fieldset>
+
+        <p>
+          <label
+            ><input name="agreement" type="checkbox" /> I agree to
+            <a class="all__links" href="subpages.html ">Terms of Service</a> &
+            <a class="all__links" href="subpages.html" >Privacy Policy </a>
+          </label>
+        </p>
+
+        <p class="submit">
+          <input class="submitButton" name="submit" type="submit" value="Apply"/>
+        </p>
+      </form>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
