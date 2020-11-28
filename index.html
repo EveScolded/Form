@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,10 +23,11 @@
 
     <main>
       <!-- sposób I na dodawanie label -->
-      <form  method="POST" class="form">
+      <form  method="POST" action="https://dev.cotenfrontend.pl" class="form">
         <p>
           <label for="FirstName">First name:</label>
           <input
+          required
             class="form__input"
             placeholder="Please enter your first name"
             id="FirstName"
@@ -39,6 +40,7 @@
           <label
             >Last name:
             <input
+            required
               class="form__input"
               placeholder="Please enter your last name"
               id="LastName"
@@ -51,6 +53,7 @@
           <label
             >Phone number:
             <input
+            required
               class="form__input"
               placeholder="Please enter your phone number"
               id="PhoneNumber"
@@ -64,6 +67,7 @@
           <label
             >E-mail address:
             <input
+            required
               class="form__input"
               placeholder="Please enter your e-mail address"
               id="E-mail"
@@ -168,7 +172,7 @@
 
         <p>
           <label
-            ><input name="agreement" type="checkbox" /> I agree to
+            ><input required name="agreement" type="checkbox" /> I agree to
             <a class="all__links" href="subpages.html ">Terms of Service</a> &
             <a class="all__links" href="subpages.html" >Privacy Policy </a>
           </label>

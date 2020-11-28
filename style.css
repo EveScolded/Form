@@ -24,7 +24,7 @@ main {
 }
 
 .main__subpages {
-  color: black;
+  color: #fff;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -114,7 +114,6 @@ header {
 }
 
 .submitButton:hover {
-  border: solid #000000 1px;
   background: #081427;
   background-image: -webkit-linear-gradient(top, #030c1a, #0f1925);
   background-image: -moz-linear-gradient(top,  #030c1a, #0f1925);
