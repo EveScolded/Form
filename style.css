@@ -16,6 +16,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: #fff;
+  text-shadow: #000000;
 }
 
 main {
@@ -37,8 +38,11 @@ header {
   margin: 16px;
 }
 
-.header__subpages {
-  
+.main-header__description {
+  background-color: #0000006c;
+  padding: 10px;
+  border: solid 2px rgba(0, 0, 0, 0.747);
+  border-radius: 8px;
 }
 
 .main-header {
