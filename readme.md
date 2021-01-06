@@ -1,5 +1,5 @@
 
-![cover](./src/assets/img/cover.jpg)
+![cover](./cover.jpg)
 
 # General info
 
@@ -7,4 +7,4 @@ Simple form created for "WTF: co ten frontend" training program using different 
 
 ## Live view
 
-https:/evescolded.github.io/Form
+https://evescolded.github.io/Form
