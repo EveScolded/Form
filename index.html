@@ -59,6 +59,7 @@
               id="PhoneNumber"
               name="PhoneNumber"
               type="tel"
+              minlength="9"
             />
           </label>
         </p>
@@ -84,6 +85,7 @@
             <label
               >Street name:
               <input
+                required
                 class="form__input"
                 placeholder="Please enter street name"
                 id="StreetName"
@@ -96,10 +98,12 @@
             <label
               >Building number:
               <input
+                required
                 class="form__input"
                 placeholder="Please enter building number"
                 id="BuildingNumner"
                 name="BuildingNumber"
+                type="number"
               />
             </label>
           </p>
@@ -108,10 +112,12 @@
             <label
               >Home number:
               <input
+                required
                 class="form__input"
                 placeholder="Please enter home number"
                 id="HomeNumber"
                 name="HomeNumber"
+                type="number"
               />
             </label>
           </p>
@@ -120,6 +126,7 @@
             <label
               >City name:
               <input
+                required
                 class="form__input"
                 placeholder="Please enter city name"
                 id="CityName"
@@ -132,6 +139,7 @@
             <label
               >Postal code:
               <input
+                required  
                 class="form__input"
                 placeholder="Please enter postal code"
                 id="PostalCode"
@@ -144,6 +152,7 @@
             <label
               >Country name:
               <input
+                required
                 class="form__input"
                 placeholder="Please enter country name"
                 id="CountryName"
@@ -164,7 +173,7 @@
 
           <p>
             <label>
-              <input type="radio" value="Mars" name="destination" /> Mars
+              <input type="radio" value="Mars" name="destination" checked/> Mars
             </label>
           </p>
 
